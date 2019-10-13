@@ -2,7 +2,7 @@
 
 This repository contains the code written and the plots produced for the TMVA multivariate analysis.
 
-NB: In order to reproduce the results, the ROOT framework with TMVA must be installed: https://root.cern.ch/downloading-root contains the binary of the latest version (v6.18/04) and the instruction for the installation
+NB: In order to reproduce the results, the ROOT framework with TMVA must be installed: https://root.cern.ch/downloading-root contains the binary of the latest version (v6.18/04) and the instruction for the installation.
 
 ## List of the files cointained in this repository
 
@@ -25,7 +25,7 @@ To open a TMVA ROOT file, simply:
 
 ```
 root -l 
-[1] TMVA::TMVAGui(“TMVA.root”)
+[1] TMVA::TMVAGui("TMVA.root")
 ```
 
 * ApplicationTMVA.C : this script applies the classifier trained in the previous file, and then - using the BDT response that maximizes the significance - is able to produce the significance in the Higgs search region of 200-400GeV.
