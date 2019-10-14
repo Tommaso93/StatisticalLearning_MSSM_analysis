@@ -19,7 +19,7 @@ In the **TMVA folder**:
 
 * dataset/ : folder containing the weights and plots produced by the classifier and required for the production of the significance;
 * TMVAClassification.C : this script contains the TMVA code for the training and testing of the various BDT algorithms adopted for this project, the output with all the information is then saved in a ROOT file;
-* TMVA.root : ROOT file containing all the plots and information concerning the classification. When a new plot is produced, it is automatically saved into the dataset folder;
+* TMVA.root : ROOT file containing all the plots and information concerning the classification. When a new plot is produced, it is automatically saved into the dataset folder.
 
 To open a TMVA ROOT file, simply:
 
